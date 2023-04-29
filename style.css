@@ -1,0 +1,105 @@
+/* Estilos generales del formulario */
+
+.formulario {
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  /* Estilos para los campos del formulario */
+  
+  .campo {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  /* Estilos para el botón de enviar */
+  
+  .btn {
+    background-color: #0066cc;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #004c99;
+  }
+  
+  /* Estilos para la leyenda del formulario */
+  
+  .legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos para el fieldset del formulario */
+  
+  .fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+.desabilitar{
+    cursor: not-allowed;
+    opacity: 0.5;
+} 
+.mensaje{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.alert-danger{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+.alert-success{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: green;
+    margin-top: 20px;
+    text-align: center;
+}
+.error{
+    border-bottom: 1.6px solid red;
+}
+.correcto{
+    border-bottom: 1.6px solid green;
+}
